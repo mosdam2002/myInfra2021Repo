@@ -3,6 +3,6 @@ terraform {
     bucket = "mosdambucket"
     key = "main"
     region = "us-east-1"
-    dynamodb_table = "Teraform-lock"
+    dynamodb_table = "my-dynamodb-table"
   }
 }
